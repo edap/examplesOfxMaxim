@@ -1,8 +1,6 @@
 #include "ofApp.h"
 
 void ofApp::setup(){
-
-
     ofSetVerticalSync(true);
     ofEnableAlphaBlending();
     ofEnableSmoothing();
