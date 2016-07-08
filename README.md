@@ -7,3 +7,4 @@ Note: some of the examples requires an audio wav files in order to work, the fil
 * 02-FFT -> visualization of different sound waves in time domain and frequency domain
 * 03-FFT-File -> Spectrum analysis on a loaded file
 * 04-FFT-AudioIn -> Spectrum analysis on Audio Input
+* 05-frequency-modulator -> FFT visualization of how a wave can modulate the frequency of another wave.
