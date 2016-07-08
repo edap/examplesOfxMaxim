@@ -1,7 +1,7 @@
 # examplesOfxMaxim
 
-openFrameworks apps that uses ofxMaxim, done as excercise while following the course "Creative Programming for Audiovisual Art" by Mick Grierson.
-Note: some of the examples requires an audio wav files in order to work, the file is not included. Add it into `bin/data` and name it `beat.wav`
+openFrameworks apps that use [Maximilian](https://github.com/micknoise/Maximilian) Mick Grierson.
+WIP
 
 ![example](maxim.gif)
 
@@ -10,3 +10,5 @@ Note: some of the examples requires an audio wav files in order to work, the fil
 * 03-FFT-File -> Spectrum analysis on a loaded file
 * 04-FFT-AudioIn -> Spectrum analysis on Audio Input
 * 05-frequency-modulator -> FFT visualization of how a wave can modulate the frequency of another wave.
+
+Note: some of the examples requires an audio wav files in order to work, the file is not included. Add it into `bin/data` and name it `beat.wav`
