@@ -20,16 +20,12 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
 
-    // Audio output and input methods
+    // Audio output method
     void audioOut(float * output, int bufferSize, int nChannels);
-    void audioIn(float * input, int bufferSize, int nChannels);
-
 
     double  outputs[2];
     int		bufferSize;
     int		sampleRate;
 
     ofxMaxiOsc myOscill;
-    ofxMaxiOsc myOscill2;
-    ofxMaxiFFT fft;
 };
