@@ -17,6 +17,7 @@ void ofApp::setup(){
     fft.setup(fftSize, 512, 256);
     /* this has to happen at the end of setup - it switches on the DAC */
     ofSoundStreamSetup(2,2,this, sampleRate, bufferSize, 4);
+    ofSetBackgroundColor(255, 200, 0);
 }
 
 //--------------------------------------------------------------
@@ -26,9 +27,18 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    ofSetColor(255, 255, 255);
+    float width = float(ofGetWidth()) / float(fftSize) /2.f;
     for(int i = 0; i < fftSize ;i++){
-        ofDrawRectangle(i * 2, ofGetHeight(), 2, -(fft.magnitudesDB[i]) * 8);
+        int r = float(255) / float(fftSize) * i;
+        int g = 40;
+        int b = 255 - r;
+        ofSetColor(r, g, b);
+        ofDrawCircle(ofGetWidth()/2 +width * i,
+                     ofGetHeight()/2, fft.magnitudes[i] * 2);
+
+        ofDrawCircle(ofGetWidth()/2 -width * i,
+                     ofGetHeight()/2, fft.magnitudes[i] * 2);
+        //ofDrawRectangle(i * 2, ofGetHeight(), 2, -(fft.magnitudesDB[i]) * 8);
     }
 }
 
