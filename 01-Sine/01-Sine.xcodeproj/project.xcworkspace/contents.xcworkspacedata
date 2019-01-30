@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/da1/Sources/OF/of_v0.9.3_osx_release/apps/ofxMaximExamples/maximCourse/01-Sine.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

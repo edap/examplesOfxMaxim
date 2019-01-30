@@ -33,7 +33,7 @@ void ofApp::update(){
     }
     int x = 0;
     for(auto vol:volHistory){
-        auto ver = ofVec2f(x, ofGetHeight()-vol * lineScale);
+        auto ver = glm::vec3(x, ofGetHeight()-vol * lineScale,0);
         line.addVertex(ver);
         if (line.size() > ofGetWidth()){
             line.getVertices().erase(
