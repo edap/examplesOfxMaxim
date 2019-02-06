@@ -30,7 +30,6 @@ public:
     ofParameter<float> smoothedVal;
     ofParameter<float> minThreshold;
     ofParameter<int> radius;
-    ofParameter<int> lineScale;
 
     int		bufferSize;
     int		sampleRate;

@@ -24,6 +24,7 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    ofSoundUpdate();
     //copied from audioInExample
     volHistory.push_back( smoothedVolume );
 

@@ -6,7 +6,6 @@ void ofApp::setup(){
     gui.add(minThreshold.set("minTreshold", 0.1, 0.1, 0.3));
     gui.add(smoothedVal.set("smoothed value", 0.97, 0.70, 0.99));
     gui.add(radius.set("radius", 200, 100, 800));
-    gui.add(lineScale.set("lineScale", 500, 200, 1200));
     ofSetVerticalSync(true);
     ofEnableAlphaBlending();
     ofEnableSmoothing();
