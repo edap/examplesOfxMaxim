@@ -3,6 +3,8 @@
 openFrameworks apps that use [Maximilian](https://github.com/micknoise/Maximilian) Mick Grierson.
 WIP
 
+In order to run these example, download [Maximilian](https://github.com/micknoise/Maximilian), copy the folder `ofxMaxim` in your `addons` folder. You do not need the rest of the files contained in Maximilian, but just that `ofxMaxim` folder.
+
 ![example](maxim.gif)
 
 * 01-Sine -> Your first oscillator. How to generate a sine wave using ofxMaxiOsc.
